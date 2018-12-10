@@ -23,4 +23,4 @@ axis image;
 ```
 
 ## Examples
-![Created in Octave](/home/siddharth/MyLibraries/SphereMesh/meshes.jpg  "Mesh examples using generateSphereMesh")
+![Created in Octave](meshes.jpg  "Mesh examples using generateSphereMesh")
