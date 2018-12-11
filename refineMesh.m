@@ -1,4 +1,4 @@
-% Preserves the right- or left-hended sense of vertices of a mesh element.
+% Transfers the right- or left-handed sense of a mesh element to its computed children.
 
 function [ P, tri ] = refineMesh( Pin, triin )
 	
