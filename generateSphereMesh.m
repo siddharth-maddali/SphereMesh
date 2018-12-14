@@ -15,9 +15,4 @@ function [ P, tri ] = generateSphereMesh( generation, type )
 		[ P, tri ] = refineMesh( P, tri );
 	end
 	
-	[ ~, ~, R ] = svd( rand( 3 ) );
-	if det( R ) < 0
-		R = R( :, [ 3 2 1 ] );
-	P = R * P; % rotate nodes by a random rotation
-
 end
